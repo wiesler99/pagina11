@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'cep-bx';
+    src:    url('../fonts/cep-bx.html');
+    src:    url('../fonts/cep-bx.html') format('embedded-opentype'),
+        url('../fonts/cep-bx-2.html') format('truetype'),
+        url('../fonts/cep-bx-3.html') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+
+    font-size: 12pt;
+    vertical-align: middle;
+
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'cep-bx' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-times-circle:before {
+    content: "\f057";
+}
+.icon-warning3:before {
+    content: "\f071";
+}
+.icon-shield2:before {
+    content: "\f132";
+}
+.icon-home:before {
+    content: "\e900";
+}
+.icon-pencil:before {
+    content: "\e901";
+}
+.icon-box-add:before {
+    content: "\e90a";
+}
+.icon-download:before {
+    content: "\e905";
+}
+.icon-search:before {
+    content: "\e908";
+}
+.icon-bin:before {
+    content: "\e902";
+}
+.icon-clipboard:before {
+    content: "\e903";
+}
+.icon-list:before {
+    content: "\e909";
+}
+.icon-list2:before {
+    content: "\e90c";
+}
+.icon-download3:before {
+    content: "\e904";
+}
+.icon-info:before {
+    content: "\e906";
+}
+.icon-checkmark:before {
+    content: "\e907";
+}
+.icon-arrow-down:before {
+    content: "\e90b";
+}
